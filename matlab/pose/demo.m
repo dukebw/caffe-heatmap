@@ -6,7 +6,8 @@
 % Options
 
 opt.visualise = true;		% Visualise predictions?
-opt.useGPU = true; 			% Run on GPU
+% opt.useGPU = true; 			% Run on GPU
+opt.useGPU = false; 			% Run on CPU
 opt.dims = [256 256]; 		% Input dimensions (needs to match matlab.txt)
 opt.numJoints = 7; 			% Number of joints
 opt.layerName = 'conv5_fusion'; % Output layer name
