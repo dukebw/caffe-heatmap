@@ -271,7 +271,7 @@ void EuclideanLossHeatmapLayer<Dtype>::Backward_gpu(const vector<Blob<Dtype>*>& 
 
 
 #ifdef CPU_ONLY
-STUB_GPU(EuclideanLossHeatmapLayer);
+// STUB_GPU(EuclideanLossHeatmapLayer);
 #endif
 
 INSTANTIATE_CLASS(EuclideanLossHeatmapLayer);

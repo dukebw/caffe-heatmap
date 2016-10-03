@@ -1,7 +1,7 @@
 % Initialise Caffe
 function net = initCaffe(opt)
 
-if (isfield(opt, "useGPU") && opt.useGPU)
+if (isfield(opt, 'useGPU') && opt.useGPU)
         caffe.set_mode_gpu();
         gpu_id = 3;  
         caffe.set_device(gpu_id);

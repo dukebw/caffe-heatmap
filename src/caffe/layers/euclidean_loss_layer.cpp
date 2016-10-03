@@ -48,7 +48,7 @@ void EuclideanLossLayer<Dtype>::Backward_cpu(const vector<Blob<Dtype>*>& top,
 }
 
 #ifdef CPU_ONLY
-// STUB_GPU(EuclideanLossLayer);
+STUB_GPU(EuclideanLossLayer);
 #endif
 
 INSTANTIATE_CLASS(EuclideanLossLayer);
